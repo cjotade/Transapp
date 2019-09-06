@@ -1,0 +1,31 @@
+Reporte cada 30 seg
+1. Patente
+2. Sonda (servicio interno que identifica recorrido de manera unica) (variantes)
+3. Servicio de Usuario (lo que ve el pasajero)
+4. Dia y hora (UTC). Ultimo dia de Abril y ultimo día de Mayo
+5. Latitud
+6. Longitud
+7. x (UTM)
+8. y (UTM)
+9. Distancia en Ruta (desde inicio hasta t)
+10. Distancia a la ruta (ortogonal a la polilinea)
+11. Velocidad instantanea (maquina del GPS del bus)
+12. Operador (codificacion empresa)
+13. Identificador de expedición (viaje de un lugar a otro)
+
+ShapeRutas
+Polilinea Real
+
+DictServicios
+COD_SINRUT (servicio SONDA) -> RUT_NE (ShapeRutas)
+
+Limpieza de datos
+- distancia a la ruta
+- reversibilidad (ida y vuelta)
+
+vsaldias@transapp.cl
+
+
+
+
+
